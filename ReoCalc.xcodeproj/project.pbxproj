@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98C2AD02286E4C0C000E6DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2AD01286E4C0C000E6DA5 /* AppDelegate.swift */; };
+		98C2AD04286E4C0C000E6DA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2AD03286E4C0C000E6DA5 /* SceneDelegate.swift */; };
+		98C2AD06286E4C0C000E6DA5 /* PatientsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C2AD05286E4C0C000E6DA5 /* PatientsVC.swift */; };
+		98C2AD09286E4C0C000E6DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C2AD07286E4C0C000E6DA5 /* Main.storyboard */; };
+		98C2AD0B286E4C0D000E6DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C2AD0A286E4C0D000E6DA5 /* Assets.xcassets */; };
+		98C2AD0E286E4C0D000E6DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C2AD0C286E4C0D000E6DA5 /* LaunchScreen.storyboard */; };
+		98ED51C3286E59EF005F1145 /* PatientsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ED51C2286E59EF005F1145 /* PatientsTVC.swift */; };
+		98ED51C5286E60E4005F1145 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ED51C4286E60E4005F1145 /* Model.swift */; };
+		98ED51C9286E6427005F1145 /* AddPatientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ED51C8286E6427005F1145 /* AddPatientVC.swift */; };
+		98ED51CB286F3CD5005F1145 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ED51CA286F3CD5005F1145 /* ViewModel.swift */; };
+		98ED51CD286F609B005F1145 /* EditPatientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ED51CC286F609B005F1145 /* EditPatientVC.swift */; };
+		98ED51D0286FAC10005F1145 /* MedicalCalcsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ED51CF286FAC10005F1145 /* MedicalCalcsVC.swift */; };
+		98ED51D2286FAE28005F1145 /* GoldmanIndexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ED51D1286FAE28005F1145 /* GoldmanIndexVC.swift */; };
+		98ED51D4286FBE5A005F1145 /* GoldmanIndexPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98ED51D3286FBE5A005F1145 /* GoldmanIndexPopUpVC.swift */; };
+		AF593AE097B776EBEED2496D /* Pods_ReoCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0204C645B1CF6EE2F14FB41 /* Pods_ReoCalc.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98C2ACFE286E4C0C000E6DA5 /* ReoCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReoCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C2AD01286E4C0C000E6DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98C2AD03286E4C0C000E6DA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98C2AD05286E4C0C000E6DA5 /* PatientsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsVC.swift; sourceTree = "<group>"; };
+		98C2AD08286E4C0C000E6DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98C2AD0A286E4C0D000E6DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98C2AD0D286E4C0D000E6DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98C2AD0F286E4C0D000E6DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98ED51C2286E59EF005F1145 /* PatientsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsTVC.swift; sourceTree = "<group>"; };
+		98ED51C4286E60E4005F1145 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		98ED51C8286E6427005F1145 /* AddPatientVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPatientVC.swift; sourceTree = "<group>"; };
+		98ED51CA286F3CD5005F1145 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		98ED51CC286F609B005F1145 /* EditPatientVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPatientVC.swift; sourceTree = "<group>"; };
+		98ED51CF286FAC10005F1145 /* MedicalCalcsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalCalcsVC.swift; sourceTree = "<group>"; };
+		98ED51D1286FAE28005F1145 /* GoldmanIndexVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldmanIndexVC.swift; sourceTree = "<group>"; };
+		98ED51D3286FBE5A005F1145 /* GoldmanIndexPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldmanIndexPopUpVC.swift; sourceTree = "<group>"; };
+		A4D56336F2BE009B03688887 /* Pods-ReoCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReoCalc.debug.xcconfig"; path = "Target Support Files/Pods-ReoCalc/Pods-ReoCalc.debug.xcconfig"; sourceTree = "<group>"; };
+		B77EE8D2604BD721A15B903A /* Pods-ReoCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReoCalc.release.xcconfig"; path = "Target Support Files/Pods-ReoCalc/Pods-ReoCalc.release.xcconfig"; sourceTree = "<group>"; };
+		C0204C645B1CF6EE2F14FB41 /* Pods_ReoCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReoCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98C2ACFB286E4C0C000E6DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF593AE097B776EBEED2496D /* Pods_ReoCalc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DC96B77BA0CDBB1116B366 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4D56336F2BE009B03688887 /* Pods-ReoCalc.debug.xcconfig */,
+				B77EE8D2604BD721A15B903A /* Pods-ReoCalc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98C2ACF5286E4C0C000E6DA5 = {
+			isa = PBXGroup;
+			children = (
+				98C2AD00286E4C0C000E6DA5 /* ReoCalc */,
+				98C2ACFF286E4C0C000E6DA5 /* Products */,
+				02DC96B77BA0CDBB1116B366 /* Pods */,
+				A1AF40252CED1E4138ADAE46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98C2ACFF286E4C0C000E6DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98C2ACFE286E4C0C000E6DA5 /* ReoCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98C2AD00286E4C0C000E6DA5 /* ReoCalc */ = {
+			isa = PBXGroup;
+			children = (
+				98ED51C7286E63EB005F1145 /* Model */,
+				98ED51C6286E63CF005F1145 /* PatientTab */,
+				98ED51CE286FAB5A005F1145 /* CalculatorTab */,
+				98C2AD01286E4C0C000E6DA5 /* AppDelegate.swift */,
+				98C2AD03286E4C0C000E6DA5 /* SceneDelegate.swift */,
+				98C2AD07286E4C0C000E6DA5 /* Main.storyboard */,
+				98C2AD0A286E4C0D000E6DA5 /* Assets.xcassets */,
+				98C2AD0C286E4C0D000E6DA5 /* LaunchScreen.storyboard */,
+				98C2AD0F286E4C0D000E6DA5 /* Info.plist */,
+			);
+			path = ReoCalc;
+			sourceTree = "<group>";
+		};
+		98ED51C6286E63CF005F1145 /* PatientTab */ = {
+			isa = PBXGroup;
+			children = (
+				98ED51C2286E59EF005F1145 /* PatientsTVC.swift */,
+				98C2AD05286E4C0C000E6DA5 /* PatientsVC.swift */,
+				98ED51C8286E6427005F1145 /* AddPatientVC.swift */,
+				98ED51CC286F609B005F1145 /* EditPatientVC.swift */,
+			);
+			path = PatientTab;
+			sourceTree = "<group>";
+		};
+		98ED51C7286E63EB005F1145 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98ED51C4286E60E4005F1145 /* Model.swift */,
+				98ED51CA286F3CD5005F1145 /* ViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98ED51CE286FAB5A005F1145 /* CalculatorTab */ = {
+			isa = PBXGroup;
+			children = (
+				98ED51CF286FAC10005F1145 /* MedicalCalcsVC.swift */,
+				98ED51D1286FAE28005F1145 /* GoldmanIndexVC.swift */,
+				98ED51D3286FBE5A005F1145 /* GoldmanIndexPopUpVC.swift */,
+			);
+			path = CalculatorTab;
+			sourceTree = "<group>";
+		};
+		A1AF40252CED1E4138ADAE46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0204C645B1CF6EE2F14FB41 /* Pods_ReoCalc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98C2ACFD286E4C0C000E6DA5 /* ReoCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C2AD12286E4C0D000E6DA5 /* Build configuration list for PBXNativeTarget "ReoCalc" */;
+			buildPhases = (
+				7AC1C578550A8C2D6609EDFC /* [CP] Check Pods Manifest.lock */,
+				98C2ACFA286E4C0C000E6DA5 /* Sources */,
+				98C2ACFB286E4C0C000E6DA5 /* Frameworks */,
+				98C2ACFC286E4C0C000E6DA5 /* Resources */,
+				6CF4D0FCEAAF24736B7D83FE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReoCalc;
+			productName = ReoCalc;
+			productReference = 98C2ACFE286E4C0C000E6DA5 /* ReoCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98C2ACF6286E4C0C000E6DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					98C2ACFD286E4C0C000E6DA5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 98C2ACF9286E4C0C000E6DA5 /* Build configuration list for PBXProject "ReoCalc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98C2ACF5286E4C0C000E6DA5;
+			productRefGroup = 98C2ACFF286E4C0C000E6DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98C2ACFD286E4C0C000E6DA5 /* ReoCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98C2ACFC286E4C0C000E6DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C2AD0E286E4C0D000E6DA5 /* LaunchScreen.storyboard in Resources */,
+				98C2AD0B286E4C0D000E6DA5 /* Assets.xcassets in Resources */,
+				98C2AD09286E4C0C000E6DA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CF4D0FCEAAF24736B7D83FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReoCalc/Pods-ReoCalc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReoCalc/Pods-ReoCalc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReoCalc/Pods-ReoCalc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC1C578550A8C2D6609EDFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReoCalc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98C2ACFA286E4C0C000E6DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98ED51D0286FAC10005F1145 /* MedicalCalcsVC.swift in Sources */,
+				98ED51C3286E59EF005F1145 /* PatientsTVC.swift in Sources */,
+				98C2AD06286E4C0C000E6DA5 /* PatientsVC.swift in Sources */,
+				98C2AD02286E4C0C000E6DA5 /* AppDelegate.swift in Sources */,
+				98ED51D4286FBE5A005F1145 /* GoldmanIndexPopUpVC.swift in Sources */,
+				98ED51C9286E6427005F1145 /* AddPatientVC.swift in Sources */,
+				98ED51C5286E60E4005F1145 /* Model.swift in Sources */,
+				98ED51D2286FAE28005F1145 /* GoldmanIndexVC.swift in Sources */,
+				98ED51CB286F3CD5005F1145 /* ViewModel.swift in Sources */,
+				98ED51CD286F609B005F1145 /* EditPatientVC.swift in Sources */,
+				98C2AD04286E4C0C000E6DA5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98C2AD07286E4C0C000E6DA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C2AD08286E4C0C000E6DA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98C2AD0C286E4C0D000E6DA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C2AD0D286E4C0D000E6DA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98C2AD10286E4C0D000E6DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98C2AD11286E4C0D000E6DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98C2AD13286E4C0D000E6DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D56336F2BE009B03688887 /* Pods-ReoCalc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTPU4X4DGE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReoCalc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilalekseev.ReoCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98C2AD14286E4C0D000E6DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77EE8D2604BD721A15B903A /* Pods-ReoCalc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTPU4X4DGE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReoCalc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilalekseev.ReoCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98C2ACF9286E4C0C000E6DA5 /* Build configuration list for PBXProject "ReoCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C2AD10286E4C0D000E6DA5 /* Debug */,
+				98C2AD11286E4C0D000E6DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98C2AD12286E4C0D000E6DA5 /* Build configuration list for PBXNativeTarget "ReoCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C2AD13286E4C0D000E6DA5 /* Debug */,
+				98C2AD14286E4C0D000E6DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98C2ACF6286E4C0C000E6DA5 /* Project object */;
+}
